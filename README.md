@@ -183,4 +183,4 @@ aisupportass/
 
 ## 📝 License
 
-MIT — Built for Vidzai Digital / Infosys Internship Project
+MIT License
