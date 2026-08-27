@@ -1,0 +1,36 @@
+# ── Python ──────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+*.pyc
+
+# ── Environment (contains secrets) ──────────────────
+.env
+backend/.env
+.env.local
+.env.production
+
+# ── Vector DB ────────────────────────────────────────
+backend/chroma_db/
+chroma_db/
+
+# ── Node ─────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# ── Next.js build ────────────────────────────────────
+.next/
+frontend/.next/
+out/
+
+# ── Editor / OS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Misc ─────────────────────────────────────────────
+*.log
+*.tmp

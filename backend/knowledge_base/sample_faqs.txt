@@ -1,0 +1,122 @@
+ARTICLE: How to Reset Your Password
+ID: FAQ-001
+Category: Account Management
+
+If you have forgotten your password or need to reset it, follow these steps:
+1. Go to the login page and click "Forgot Password".
+2. Enter the email address associated with your account.
+3. Check your inbox for a password reset email (check spam if not received within 5 minutes).
+4. Click the link in the email — it expires after 24 hours.
+5. Enter and confirm your new password. Password must be at least 8 characters and include one number.
+6. Log in with your new password.
+
+If you did not receive the email, verify the email address is correct, or contact support.
+
+---
+
+ARTICLE: Billing and Subscription Issues
+ID: FAQ-002
+Category: Billing
+
+Common billing questions and solutions:
+
+Q: Why was I charged twice?
+A: Double charges are usually resolved within 3–5 business days. Share your transaction ID and we will investigate.
+
+Q: How do I cancel my subscription?
+A: Go to Account Settings → Subscription → Cancel Plan. Cancellation takes effect at the end of the current billing cycle.
+
+Q: How do I upgrade my plan?
+A: Go to Account Settings → Subscription → Upgrade. You will be charged the pro-rated difference immediately.
+
+Q: I need a refund.
+A: Refunds are available within 14 days of charge for annual plans, 7 days for monthly. Contact support with your invoice number.
+
+---
+
+ARTICLE: App Not Loading / Performance Issues
+ID: FAQ-003
+Category: Technical Support
+
+If the app is not loading or running slowly:
+1. Clear your browser cache and cookies (Ctrl+Shift+Delete on Chrome).
+2. Try a different browser (Chrome, Firefox, Edge).
+3. Disable browser extensions temporarily.
+4. Check our status page at status.example.com for outages.
+5. Ensure your internet connection is stable.
+6. If on mobile, try uninstalling and reinstalling the app.
+
+If the problem persists for more than 30 minutes, our team may be aware and working on it. Please submit a ticket with a screenshot.
+
+---
+
+ARTICLE: Data Export and Privacy
+ID: FAQ-004
+Category: Privacy & Data
+
+How to export your data:
+1. Go to Account Settings → Privacy → Export My Data.
+2. Select the data types you want (messages, files, account info).
+3. Click "Request Export". An email with a download link will be sent within 24 hours.
+
+Your data is yours. We comply with GDPR and CCPA. You can request full account deletion at any time by contacting support@example.com.
+
+---
+
+ARTICLE: Two-Factor Authentication (2FA) Setup
+ID: FAQ-005
+Category: Security
+
+Enable 2FA for extra account security:
+1. Go to Account Settings → Security → Two-Factor Authentication.
+2. Choose Authenticator App (recommended) or SMS.
+3. For Authenticator App: scan the QR code with Google Authenticator or Authy.
+4. Enter the 6-digit code to confirm setup.
+5. Save your backup codes in a secure location.
+
+If you lose access to your 2FA device, use a backup code. If you don't have one, contact support for identity verification.
+
+---
+
+ARTICLE: Contacting Support / Escalation Process
+ID: FAQ-006
+Category: Support Process
+
+Our support tiers:
+- Level 1 (Chat/Email): General questions, billing, account issues — response within 1 hour.
+- Level 2 (Senior Agent): Technical issues, data problems — response within 4 hours.
+- Level 3 (Engineering): Critical outages, data loss — response within 1 hour (for Enterprise).
+
+Priority support is available for Enterprise and Business plan customers. Mention your plan tier when contacting support.
+
+Emergency contacts: For critical data loss or security breaches, email urgent@example.com.
+
+---
+
+ARTICLE: Integrations and API Access
+ID: FAQ-007
+Category: Integrations
+
+We support integrations with:
+- Slack, Microsoft Teams (via webhooks)
+- Zapier (500+ apps)
+- REST API (available on Pro and Enterprise plans)
+
+To get your API key: Go to Developer Settings → API Keys → Generate New Key.
+API rate limits: 100 requests/minute (Pro), 1000 requests/minute (Enterprise).
+
+Full API documentation is at docs.example.com/api.
+
+---
+
+ARTICLE: Feature Requests and Feedback
+ID: FAQ-008
+Category: Product
+
+We love hearing from users:
+- Submit feature requests at feedback.example.com.
+- Vote on existing requests to influence our roadmap.
+- Join our community forum at community.example.com for discussions.
+- Monthly product updates are shared in our newsletter.
+
+Our product team reviews all submissions and responds to high-voted requests within 30 days.

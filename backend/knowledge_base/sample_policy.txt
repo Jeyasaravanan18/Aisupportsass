@@ -1,0 +1,125 @@
+DOCUMENT: Customer Support Policy & Service Standards
+Version: 2.1
+Effective Date: January 2025
+
+---
+
+SECTION 1: REFUND POLICY
+
+1.1 Eligibility
+Customers are eligible for a full refund if:
+- Request is made within 14 days of purchase (annual plans)
+- Request is made within 7 days of purchase (monthly plans)
+- The product was not used extensively (fewer than 3 active sessions)
+
+1.2 Non-Refundable Items
+- Add-on services that have been fully delivered
+- Training sessions that have been attended
+- Custom integrations once development has begun
+
+1.3 Process
+Refunds are processed within 5–10 business days to the original payment method. Customers must provide:
+- Order/Invoice number
+- Reason for refund
+- Account email address
+
+---
+
+SECTION 2: SERVICE LEVEL AGREEMENT (SLA)
+
+2.1 Response Times
+| Priority | Description | Response Time | Resolution Target |
+|----------|-------------|---------------|-------------------|
+| P1 - Critical | System down, data loss | 1 hour | 4 hours |
+| P2 - High | Major feature broken | 4 hours | 24 hours |
+| P3 - Medium | Feature degraded | 8 hours | 72 hours |
+| P4 - Low | General inquiry | 24 hours | 5 business days |
+
+2.2 Priority Determination
+Priority is set based on customer impact. Enterprise customers may escalate to P1 for any critical business impact. Support agents must not downgrade a customer's stated priority without manager approval.
+
+---
+
+SECTION 3: ESCALATION POLICY
+
+3.1 When to Escalate
+Agents must escalate to Level 2 when:
+- Issue involves data loss or data corruption
+- Customer has contacted support more than 3 times for the same issue
+- Customer explicitly requests escalation
+- Issue involves billing disputes over $500
+- Customer expresses legal intent or mentions regulatory action
+
+3.2 Escalation Process
+1. Inform customer: "I'm escalating this to our senior team for priority handling."
+2. Transfer ticket with full context notes
+3. Ensure customer receives confirmation of escalation within 15 minutes
+4. Follow up within 2 hours if no Level 2 response
+
+3.3 De-escalation Techniques
+When a customer is highly frustrated:
+- Acknowledge their frustration: "I completely understand this has been frustrating."
+- Avoid defensive language
+- Focus on what CAN be done, not what can't
+- Offer a concrete next step with a specific timeline
+- If appropriate, offer a goodwill credit (up to $25 without manager approval)
+
+---
+
+SECTION 4: COMMUNICATION STANDARDS
+
+4.1 Tone Requirements
+- Use empathetic, professional language at all times
+- Avoid jargon; use plain language
+- Personalize responses using the customer's name
+- End every interaction by confirming the issue is resolved
+
+4.2 Prohibited Language
+- "That's not possible" → Use "Here's what we can do instead..."
+- "You should have..." → Use "Going forward, one option is..."
+- "It's your fault" or implying customer error
+- "I don't know" alone → Always follow with "Let me find out for you."
+
+4.3 Closing Standards
+Before closing a support interaction, agents must:
+1. Confirm the customer's issue is fully resolved
+2. Ask if there's anything else they can help with
+3. Share relevant self-service resources
+4. Provide the ticket/case number for reference
+
+---
+
+SECTION 5: COMPLIANCE AND DATA HANDLING
+
+5.1 Customer Data
+- Never access customer data without explicit permission
+- Log all data access in the internal audit system
+- Customer PII must not be shared in ticket summaries sent via email
+- Screenshots of customer data require manager approval before sharing
+
+5.2 GDPR / CCPA
+- Honor data deletion requests within 30 days
+- Provide data export within 30 days of request
+- Direct customers to privacy@example.com for formal data requests
+
+---
+
+SECTION 6: GOODWILL AND COMPENSATION
+
+6.1 Agent Authority
+Support agents can offer without manager approval:
+- Account credit up to $25
+- 30-day plan extension
+- One-time waiver of late fees
+
+Level 2 agents can offer:
+- Account credit up to $100
+- 3-month plan extension
+- Full refund for current billing period
+
+6.2 Logging Requirements
+All goodwill gestures must be logged in the CRM with:
+- Reason for gesture
+- Customer account ID
+- Amount/type of compensation
+- Approving agent ID

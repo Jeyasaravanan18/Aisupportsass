@@ -1,0 +1,22 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.7.1
+
+# OpenRouter via OpenAI-compatible SDK
+openai==1.35.7
+
+# Local embeddings (free, no API key needed)
+sentence-transformers==3.0.1
+
+# Vector Store
+chromadb==0.5.3
+
+# PDF Ingestion
+PyMuPDF==1.24.3
+
+# Utilities
+httpx==0.27.0
+aiofiles==23.2.1
+numpy==1.26.4

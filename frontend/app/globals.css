@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS Variables ── */
+:root {
+  --bg-main: #f9fafb;
+  --bg-sidebar: #ffffff;
+  --bg-card: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border: #e5e7eb;
+  --accent-light: #e0f2fe; /* Light blue for customer bubbles / badges */
+  --accent-text: #0ea5e9;  /* Blue text */
+  --agent-bubble: #111827; /* Black */
+  
+  /* Modal variables (kept dark) */
+  --bg-modal-overlay: rgba(0,0,0,0.6);
+  --bg-modal: #1e212b;
+  --modal-accent: #00c4b5;
+}
+
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: var(--text-main);
+  background: var(--bg-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+/* ── Card ── */
+.c-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+/* ── Inputs ── */
+.c-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #111827;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+.c-input:focus {
+  border-color: var(--accent-text);
+  box-shadow: 0 0 0 2px rgba(14,165,233,0.1);
+}
+.c-input::placeholder { color: #9ca3af; }
+
+/* ── Button ── */
+.c-btn-accent {
+  background: var(--agent-bubble);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: opacity 0.2s;
+}
+.c-btn-accent:hover {
+  opacity: 0.9;
+}
+.c-btn-accent:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ── Progress/Slider (for dark modal) ── */
+.range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #374151;
+  outline: none;
+}
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--modal-accent);
+  cursor: pointer;
+}
+
+/* ── Status Badge ── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-blue { background: #e0f2fe; color: #0284c7; }
+.badge-green { background: #dcfce7; color: #15803d; }
+.badge-red { background: #fee2e2; color: #b91c1c; }
+
+/* ── Chat bubbles ── */
+.bubble-customer {
+  background: #e0f2fe;
+  color: #111827;
+  border-radius: 16px 16px 16px 4px;
+}
+.bubble-agent {
+  background: #111827;
+  color: #ffffff;
+  border-radius: 16px 16px 4px 16px;
+}
